@@ -2,6 +2,7 @@
     --bs-list-group-bg: transparent;
 }
 
+/*Redes*/
 .fa-brands.fa-linkedin.fa-2xl:hover {
     --bs-text-opacity: 1;
     color: blue !important;
@@ -20,7 +21,6 @@
 section.banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.4)), url(../img/banner.png);
-    position: relative;
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
@@ -39,19 +39,63 @@ h1.intro {
     transition: box-shadow 0.3s ease;
 }
 
-footer {
-    background-color: #222;
-    margin-top: 2rem;
-    padding: 3rem;
-    color: #fff;
+.login{
+    height: 75vh;
 }
 
-footer section {
-    float: right;
+.formulario-login{
+    margin-top: 15%;
 }
+
+.Perfil{
+    width: 70%;
+}
+
+.admin{
+    font-size: 1.3rem;
+}
+
+.link{
+    text-decoration: none;
+    color: #000000;
+}
+
+nav.vertical{
+    float: left;
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+    align-items: center;
+}
+
+li.vertical{
+    display: flex;
+    margin: 0;
+    writing-mode: vertical;
+    padding: 1.5rem 0;
+    font-size: 1.5rem;
+}
+
+/* footer */
+
+footer {
+        background: black;
+        height: 70px;
+        border-top: 2px solid rgba(0, 0, 0, 0.24);  
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
 
 footer p {
-    margin: 0;
+    text-align: center;
+    font-size: small;
+    color: white;
+}
+
+.botones{
+    text-align: center;
+    font-size: medium;
 }
 
 footer a {
@@ -62,4 +106,12 @@ footer a {
 
 footer a:hover {
     color: cornflowerblue;
+}
+
+.last{
+    padding-bottom: 6rem;
+}
+
+.proyectos{
+    padding-bottom: 10rem;
 }
